@@ -1,6 +1,6 @@
 ---
 name: ISSUE_TEMPLATES
-about: Template
+about: This template is for creating user stories
 title: ''
 labels: ''
 assignees: ''
