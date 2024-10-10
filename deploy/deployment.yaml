@@ -18,7 +18,7 @@ spec:
         app: accounts
     spec:
       containers:
-      - image: IMAGE_NAME_HERE
+      - image: us.icr.io/research3/huanghoffman/accounts:1
         name: accounts
         resources: {}
 
@@ -40,4 +40,8 @@ spec:
               secretKeyRef:
                 name: postgresql
                 key: database-user
+
+      imagePullSecrets:
+        - name: all-icr-io
+      
 
